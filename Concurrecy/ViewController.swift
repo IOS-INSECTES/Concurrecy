@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        //Here we are trying to differentiate actor and traditional way of concurrency
         let queue1:DispatchQueue = DispatchQueue(label: "queue1")
         let queue2:DispatchQueue = DispatchQueue(label: "queue2")
         
